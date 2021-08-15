@@ -1,65 +1,80 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://yusrisahrul.engineer',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'yusrisahrul10', // Usually your GitHub org/user name.
-  projectName: 'my-website', // Usually your repo name.
-  themeConfig: {
-    navbar: {
-      title: 'My Site',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
-      items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
+module.exports={
+  "title": "Yusri Sahrul",
+  "tagline": "Yusri Sahrul Personal Website",
+  "url": "https://yusrisahrul.engineer",
+  "baseUrl": "/",
+  "organizationName": "yusrisahrul10",
+  "projectName": "my-website",
+  // "scripts": [
+  //   {
+  //     src: "https://tr.n4o.xyz/js/plausible.js",
+  //     async: true,
+  //     defer: true,
+  //     "data-domain": "naoti.me"
+  //   }
+  // ],
+  "favicon": "img/favicon.ico",
+  "onBrokenLinks": "log",
+  "onBrokenMarkdownLinks": "log",
+  "presets": [
+    [
+      "@docusaurus/preset-classic",
+      {
+        "docs": {
+          "path": "docs",
+          "showLastUpdateAuthor": true,
+          "showLastUpdateTime": true,
+          "sidebarPath": "sidebars.json"
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+        "blog": {
+          "path": "blog"
         },
-      ],
+        "theme": {
+          "customCss": [require.resolve("./src/css/customTheme.css")],
+        }
+      }
+    ]
+  ],
+  "themeConfig": {
+    colorMode: {
+      defaultMode: "dark"
     },
-    footer: {
-      style: 'dark',
-      links: [
+    "navbar": {
+      "title": "Yusri Sahrul",
+      "logo": {
+        "src": "assets/img/nt120.png"
+      },
+      "items": [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
+          "to": "blog/",
+          "label": "Blog",
+          "position": "left",
         },
         {
-          title: 'Community',
+          href: "https://github.com/yusrisahrul10/personal-website",
+          position: "right",
+          className: "header-github-link",
+        },
+      ]
+    },
+    "image": "assets/img/nt256.png",
+    footer: {
+      links: [
+
+        {
+          title: 'Connect',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/in/yusri-sahrul/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Email',
+              href: 'mailto:yusri10sahrul@gmail.com',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Facebook',
+              href: 'https://facebook.com/yusri.666',
             },
           ],
         },
@@ -72,38 +87,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/yusrisahrul10',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
-    prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
-    },
-  },
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
-};
+      "copyright": "Copyright © 2021 | Website Built with Docusaurus"
+    }
+  }
+}
