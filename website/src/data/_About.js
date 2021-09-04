@@ -22,99 +22,25 @@ export const WorkItems = [
     ),
   },
   {
-    location: "National University of Singapore, School of Computing",
-    link: "https://www.comp.nus.edu.sg/",
-    position: "Teaching Assistant",
-    period: "January 2018 to December 2020",
+    location: "Google Developer Student Club UNIKOM",
+    link: "https://sites.google.com/view/dscunikom/about-dsc",
+    position: "Core Team",
+    period: "Oktober 2018 s/d April 2019",
     description: (
       <>
-        <a href="https://nusmods.com/modules/CS3103/computer-networks-practice">
-          CS3103: Computer Networks Practice
+        <a href="https://www.instagram.com/p/Brws4t6lBbz/">
+          Sharing Session, Solving Local Business Problem Through Technology
         </a>
-        : Conducted weekly 2-hour labs for 16 students, covering common network
-        concepts such as IPSec-VPN and IoT protocols like MQTT, from August to
-        December 2020.
+        : Mengadakan seminar program kerja DSC UNIKOM tentang menyelesaikan masalah atau
+        menemukan suatu solusi dan inovasi untuk local business di sekitar kita, dengan teknologi.
+        Mempresentikan contoh hasil implementasi <i>local business</i> dari Core Team DSC UNIKOM
+        kepada peserta.
         <br />
         <br />
-        <a href="https://nusmods.com/modules/CS1010/programming-methodology">
-          CS1010: Programming Methodology
+        <a href="https://www.instagram.com/p/BvNt5ryF_LT/">
+          Get Hands-on With Cloud Study Jam
         </a>
-        : Conducted weekly 2-hour tutorials for 14 students, covering
-        fundamental programming concepts, C and Vim, from August to December
-        2018.
-        <br />
-        <br />
-        <a href="https://nusmods.com/modules/CS2030/programming-methodology-ii">
-          CS2030: Programming Methodology II
-        </a>
-        : Prepared lab materials for over 200 students, covering Object-Oriented
-        Programming and Functional Programming in Java, from January to May
-        2018.
-      </>
-    ),
-  },
-  {
-    location: "Open Government Products, GovTech Singapore",
-    link: "https://www.open.gov.sg",
-    position: "Software Engineer Intern",
-    period: "May to August 2020",
-    description: (
-      <>
-        Open Government Products is an in-house team of engineers, designers,
-        and product managers who build technology for the public good.
-        <br />
-        <br />I worked on Vault.gov.sg, a Whole-of-Government data discovery and
-        sharing platform. I worked as a Full Stack Engineer (Backend: MySQL,
-        NodeJS-ExpressJS; Frontend: ReactJS-NextJS) and Cloud Engineer (AWS EB,
-        RDS, S3).
-      </>
-    ),
-  },
-  {
-    location: "Google Cloud Student Sprint Program",
-    link: "https://events.withgoogle.com/cssp/",
-    position: "Program Participant",
-    period: "May to August 2020",
-    description: (
-      <>
-        I was one of only 60 university students in Singapore chosen for this
-        intensive 10-week Google Cloud summer experience. Under the guidance of
-        a Google mentor, I learned how to deploy and monitor enterprise
-        solutions on the Google Cloud Platform.
-        <br />
-        <br />I got certified as a{" "}
-        <a href="https://cloud.google.com/certification/cloud-engineer">
-          Google Cloud Certified Associate Cloud Engineer
-        </a>{" "}
-        as part of this program.
-      </>
-    ),
-  },
-  {
-    location: "Government Digital Services, GovTech Singapore",
-    link: "https://www.hive.tech.gov.sg/",
-    position: "DevOps Associate Consultant",
-    period: "July to September 2015",
-    description: (
-      <>
-        Digital transformation within the public sector is at the heart of what
-        GovTech does.
-        <br />
-        <br />I worked as a Cloud System Administrator under the DevOps team at
-        the Government Digital Services division.
-      </>
-    ),
-  },
-  {
-    location: "DigiPen Institute of Technology, Seattle",
-    link: "https://www.digipen.edu/",
-    position: "Overseas Industrial Training Programme",
-    period: "May to July 2014",
-    description: (
-      <>
-        I was one of only three students in my school batch selected for this
-        programme. I worked in a team of 4 on a 2D puzzle game using DigiPen's
-        proprietary Zero engine.
+        : Mengadakan <i>workshop</i> akses Google Cloud Platform Hand-on Labs bagi peserta. 
       </>
     ),
   },
@@ -122,165 +48,85 @@ export const WorkItems = [
 
 export const EducationItems = [
   {
-    location: "National University of Singapore, School of Computing",
-    link: "https://www.comp.nus.edu.sg/",
-    position: "Bachelor of Computing in Computer Science",
-    period: "August 2017 to December 2020",
+    location: "Universitas Komputer Indonesia",
+    link: "https://unikom.ac.id/",
+    position: "Sarjana Teknik Informatika",
+    period: "Agustus 2016 s/d September 2021",
     description: (
       <>
-        <b>Academics</b>
+        <b>Pencapaian</b>
         <ul>
           <li>
-            <a href="https://evantay.com/pdf/cert_software_engineering.pdf">
-              Certificate of Merit in Software Engineering
-            </a>
+            <a href="https://www.dicoding.com/blog/125-mahasiswa-i-peraih-google-android-scholarship-tahap-mei-2018/">Mahasiswa Peraih Google Android Scholarship Dicoding (2018)</a>
           </li>
           <li>
-            <a href="https://evantay.com/pdf/cert_distributed_systems.pdf">
-              Certificate of Merit in Networking and Distributed Systems
-            </a>
-          </li>
-          <li>
-            <a href="http://rc4.nus.edu.sg/">
-              Residential College 4 Systems Dynamics Programme
-            </a>
+            <a href="https://events.withgoogle.com/googledeveloperskejar/">Peraih Google Developer Kejar Batch 2 (2018)</a>
           </li>
         </ul>
-        <b>Achievements</b>
+        <b>Sertifikasi</b>
         <ul>
           <li>
-            NUS Students' Sports Club's Colours Award for Outstanding
-            Contributions 2019
-          </li>
-          <li>
-            NUS Orbital 2018 Honorable Mention Award (Top 11 of 211 teams)
-          </li>
-          <li>
-            <a href="http://bit.ly/2hSzWbv">IMDA SG: Digital Scholarship</a>
-          </li>
-        </ul>
-        <b>Certifications</b>
-        <ul>
-          <li>
-            <a href="https://www.youracclaim.com/badges/681b95e4-178e-4d95-af41-dcdc6dbb9442/public_url">
-              AWS Certified Cloud Practitioner (2020)
+            <a href="https://www.dicoding.com/certificates/1OP8L1ELQZQK">
+              Dicoding Belajar Fundamental Aplikasi Android (2018)
             </a>
           </li>
           <li>
-            <a href="https://www.credential.net/a3645798-b27d-401a-a412-7f1c94ba7e6a">
-              Google Cloud Certified Associate Cloud Engineer (2020)
+            <a href="https://www.dicoding.com/certificates/NVP718E1VPR0">
+              Dicoding Kotlin Android Developer Expert (2018)
+            </a>
+          </li>
+          <li>
+            <a href="https://www.dicoding.com/certificates/72ZDEO7RLPYW">
+              Dicoding Belajar Android Jetpack Pro (2020)
+            </a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/V4C87LHG6ATN">
+              Google Cloud Big Data and Machine Learning Fundamentals (2019)
+            </a>
+          </li>
+          <li>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/93KZBCQ87C33">
+              Google Cloud Fundamentals: Core Infrastructure (2019)
             </a>
           </li>
         </ul>
         <b>Courses</b>
         <ul>
           <li>
-            <a href="https://www.udemy.com/certificate/UC-a6e7af40-8f26-4c13-846f-636b88ce326e/">
-              Udemy AWS CloudFormation Master Class (2020)
+            <a href="https://www.qwiklabs.com/public_profiles/4af3c369-6502-43d4-9a92-10489ce36589/badges/66751">
+              Qwiklabs Baseline: Data, ML, AI (2019)
             </a>
           </li>
           <li>
-            <a href="https://www.udemy.com/certificate/UC-e3c08245-a935-45b7-91da-6cc690f3dd30/">
-              Udemy Node with React: Fullstack Web Development (2020)
-            </a>
-          </li>
-          <li>
-            <a href="https://courses.edx.org/certificates/e9c965d9096b4eb6b9db7e331dce8cf2">
-              HarvardX PH125.1x: Data Science: R Basics (2018)
+            <a href="https://www.qwiklabs.com/public_profiles/4af3c369-6502-43d4-9a92-10489ce36589/badges/52179">
+              Qwiklabs Google Cloud Essentials (2019)
             </a>
           </li>
         </ul>
-        <b>Activities</b>
+        <b>Aktivitas</b>
         <ul>
           <li>
-            <a href="https://dscnustech.github.io/">
-              Deputy Head of Tech of NUS Google Developer Student Club
+            <a href="https://gdsc.community.dev/universitas-komputer-indonesia/">
+              Core Team Google Developer Student Club UNIKOM
             </a>
-            : Co-organised and emceed for the first-ever Hack For Good 2020 in
-            which 28 teams participated.
+            : Berpartisipasi untuk mengadakan program kerja DSC UNIKOM seperti seminar dan <i>workshop</i> periode pertama
+            (2018-2019).
           </li>
           <li>
-            <a href="https://www.instagram.com/nusskating/">
-              President of NUS Skating Club
+            <a href="https://gdg.community.dev/gdg-bandung/">
+              Member Google Developer Group (GDG) Bandung
             </a>
-            : Organised NUS Skate Challenge 2019 in which over 60 university,
-            polytechnic, ITE and primary school students participated.
+            : Aktif berpartisipasi dalam acara-acara yang diselenggarakan GDG Bandung
+            , serta membangun relasi dengan sesama <i>developer</i>.
           </li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    location: "Stanford University, California",
-    link: "https://summer.stanford.edu/ihp",
-    position: "International Honors Program Participant",
-    period: "June to August 2019",
-    description: (
-      <>
-        I was one of only 10 NUS students selected for this prestigious summer
-        programme.
-        <br />
-        <br />
-        <b>Courses</b>
-        <ul>
           <li>
-            CME 106: Introduction to Probability and Statistics for Engineers
-          </li>
-          <li>CS 161: Design and Analysis of Algorithms</li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    location: "Singapore Polytechnic",
-    link: "https://www.sp.edu.sg/",
-    position: "Diploma with Merit in Information Technology (3.907/4.0)",
-    period: "2012 to 2015",
-    description: (
-      <>
-        <b>Achievements</b>
-        <ul>
-          <li>
-            <a href="https://youtu.be/zxQKmwpGDag?t=80">
-              Featured in Graduates of 2015 video
+            <a href="marktel.co.id/kpunikom/">
+              Kerja Praktek di PT. Marktel
             </a>
-          </li>
-          <li>
-            2nd place for{" "}
-            <a href="http://www.isobarcreate.com/">
-              Isobar Create32 Hackathon SG
-            </a>
-          </li>
-          <li>Diploma with Merit and Accenture Technology Prize</li>
-          <li>
-            <a href="http://bit.ly/2hSzWbv">
-              IMDA Integrated Infocomm Scholarship (Polytechnic)
-            </a>
-          </li>
-        </ul>
-        <b>Certifications</b>
-        <ul>
-          <li>
-            <a href="https://www.youracclaim.com/badges/71496e7f-e632-442b-b8c9-42b7b7281b95/linked_in_profile">
-              Oracle Certified Associate, Java SE 7 Programmer (2014)
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youracclaim.com/badges/d587a4e6-72a6-4000-83bf-551596f667a8/linked_in_profile">
-              Adobe Certified Associate in Visual Communication Using Adobe
-              Photoshop CS6 (2013)
-            </a>
-          </li>
-        </ul>
-        <b>Activities</b>
-        <ul>
-          <li>
-            <b>Microsoft Student Partner</b>: Conducted a Windows 8 app
-            development workshop.
-          </li>
-          <li>
-            <b>SP Guitarists Club Classical Ensemble Exco</b>: Assisted the
-            Conductor as a Sectional Leader.
+            : Membangun sebuah <i>company profile</i> bagi PT. Marktel untuk menuntaskan
+            mata kuliah Kerja Praktek. Dibangun dengan <i>framework</i> Codeigniter (CI) dan
+            OpenStreetMap API.
           </li>
         </ul>
       </>

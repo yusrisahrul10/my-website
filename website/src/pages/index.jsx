@@ -9,7 +9,7 @@ export default () => {
   return (
     <Layout>
       <img
-        src={"/img/bblank_profile.png"}
+        src={"/img/profile.jpg"}
         style={{
           display: "block",
           justifyContent: "center",

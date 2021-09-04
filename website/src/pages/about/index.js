@@ -36,14 +36,14 @@ function About() {
           <div className="container">
             <div className="row padding-bottom--lg">
               <div className={clsx("col col--3", styles.profilePic)}>
-                <img src={useBaseUrl("img/profilepic.jpg")} />
+                <img src={useBaseUrl("img/profile.jpg")} />
               </div>
               <div className="col col--9">
                 <h2>Halo,</h2>
                 <p>
                   Perkenalkan nama saya Yusri Sahrul, saya adalah <i>fresh graduate</i> dan
                   seorang <i>software engineer</i> yang memiliki pengalaman di Android Development
-                  kurang lebih 3 tahun.
+                  sejak tahun 2018.
                 </p>
                 <p>
                   Saya merupakan sarjana{" "}
@@ -71,7 +71,7 @@ function About() {
             </div>
             <div id="experience" className="row padding-vert--xl">
               <div className={clsx("col col--3", styles.aboutSectionHeader)}>
-                <h2 className="underlineColorWarning">Experience</h2>
+                <h2 className="underlineColorWarning">Pengalaman</h2>
               </div>
               <div className="col col--9">
                 {WorkItems.map((props, idx) => (
@@ -81,7 +81,7 @@ function About() {
             </div>
             <div id="education" className="row padding-vert--xl">
               <div className={clsx("col col--3", styles.aboutSectionHeader)}>
-                <h2 className="underlineColorWarning">Education</h2>
+                <h2 className="underlineColorWarning">Pendidikan</h2>
               </div>
               <div className="col col--9">
                 {EducationItems.map((props, idx) => (
