@@ -1,13 +1,11 @@
-import React from "react";
-import clsx from "clsx";
-
+import React from 'react';
+import Layout from '@theme/Layout';
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import Layout from "@theme/Layout";
-
 import styles from "./styles.module.css";
 import { WorkItems, EducationItems } from "../../data/_About";
+import clsx from "clsx";
 
 function ResumeItem({ location, link, position, period, description }) {
   return (
@@ -28,11 +26,10 @@ function ResumeItem({ location, link, position, period, description }) {
 function About() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
-
   return (
     <Layout title="About" description={siteConfig.tagline}>
-      <header className={styles.aboutHeader}>
-        <h2 className="underlineColorSuccess">About me</h2>
+        <header className={styles.aboutHeader}>
+        <h2 className="underlineColorSuccess">Tentang Saya</h2>
       </header>
       <main id="main">
         <div className={styles.aboutBody}>
@@ -42,54 +39,33 @@ function About() {
                 <img src={useBaseUrl("img/profilepic.jpg")} />
               </div>
               <div className="col col--9">
-                <h2>Hello,</h2>
+                <h2>Halo,</h2>
                 <p>
-                  I am Evan, a Full Stack Software Engineer and Certified Cloud
-                  Engineer based in Singapore.
+                  Perkenalkan nama saya Yusri Sahrul, saya adalah <i>fresh graduate</i> dan
+                  seorang <i>software engineer</i> yang memiliki pengalaman di Android Development
+                  kurang lebih 3 tahun.
                 </p>
                 <p>
-                  I love building cool, fun and meaningful things with tech,
-                  whether that be{" "}
-                  <Link to={useBaseUrl("projects/")}>
-                    websites, applications or games
-                  </Link>
-                  . To me, coding is the closest thing to magic we have in this
-                  world.
-                </p>
-                <p>
-                  I was a{" "}
-                  <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/">
-                    Computer Science major
+                  Saya merupakan sarjana{" "}
+                  <a href="http://if.unikom.ac.id/">
+                    Teknik Informatika
                   </a>{" "}
-                  at the{" "}
-                  <a href="https://www.comp.nus.edu.sg/">
-                    National University of Singapore
-                  </a>{" "}
-                  from 2017 to 2020. During my time there, I was the Deputy Head
-                  of Technology at{" "}
-                  <a href="https://dscnustech.github.io/">
-                    Google Developer Student Club NUS
+                  di{" "}
+                  <a href="https://unikom.ac.id/">
+                    Universitas Komputer Indonesia
                   </a>
-                  , and the President of the{" "}
-                  <a href="https://www.instagram.com/nusskating/">
-                    NUS Skating Club
+                  . Semasa kuliah, saya memulai pengalaman di bidang Android Developmnet
+                  dengan bergabung di {" "}
+                  <a href="https://sites.google.com/view/dscunikom/about-dsc">
+                    Google Developer Student Club UNIKOM
                   </a>
-                  . I was also a{" "}
-                  <a href="https://github.com/DigiPie/CS1010-Tutorial-C09">
-                    Teaching Assistant
-                  </a>{" "}
-                  for Programming Methodology and Networking courses.
+                  , sebagai Core Team periode 2018 sampai 2019.{" "}
+                  Bersama Lead, saya turut membantu me-<i>manage</i> seminar
+                  dan <i>workshop</i> yang diadakan, serta melatih kemampuan <i>hard skill</i> maupun <i>softskill</i>.
                 </p>
                 <p>
-                  I am currently working at{" "}
-                  <a href="https://padlet.com">Padlet</a> as a Full Stack and
-                  Support Engineer.
-                </p>
-                <p>
-                  You can read more about{" "}
-                  <Link to={useBaseUrl("#experience")}>my experience</Link> or{" "}
-                  <Link to={useBaseUrl("#education")}>my education</Link> below
-                  if you are interested.
+                  Sebelum lulus, saya mempunyai pengalaman bekerja di {" "}
+                  <a href="https://datadigi.id/">Datadigi Indonesia</a> Sebagai Android Developer selama 1 tahun.
                 </p>
               </div>
             </div>
@@ -105,7 +81,7 @@ function About() {
             </div>
             <div id="education" className="row padding-vert--xl">
               <div className={clsx("col col--3", styles.aboutSectionHeader)}>
-                <h2 className="underlineColorDanger">Education</h2>
+                <h2 className="underlineColorWarning">Education</h2>
               </div>
               <div className="col col--9">
                 {EducationItems.map((props, idx) => (
@@ -114,32 +90,7 @@ function About() {
               </div>
             </div>
           </div>
-        </div>{" "}
-        <section className={styles.directoryBody}>
-          <div className="container">
-            <h3>Continue exploring?</h3>
-            <nav className="pagination-nav">
-              <div className="pagination-nav__item">
-                <Link
-                  className="pagination-nav__link"
-                  to={useBaseUrl("projects/")}
-                >
-                  <div className="pagination-nav__sublabel">Check out</div>
-                  <div className="pagination-nav__label">My projects</div>
-                </Link>
-              </div>
-              <div className="pagination-nav__item pagination-nav__item--next">
-                <a
-                  className="pagination-nav__link"
-                  href={useBaseUrl("pdf/resume.pdf")}
-                >
-                  <div className="pagination-nav__sublabel">Download</div>
-                  <div className="pagination-nav__label">My resume</div>
-                </a>
-              </div>
-            </nav>
-          </div>
-        </section>
+        </div>
       </main>
     </Layout>
   );

@@ -13,7 +13,7 @@ module.exports={
   //     "data-domain": "naoti.me"
   //   }
   // ],
-  "favicon": "img/favicon.ico",
+  "favicon": "img/violet.png",
   "onBrokenLinks": "log",
   "onBrokenMarkdownLinks": "log",
   "presets": [
@@ -42,7 +42,7 @@ module.exports={
     "navbar": {
       "title": "Yusri Sahrul",
       "logo": {
-        "src": "assets/img/nt120.png"
+        "src": "img/blank_profile.png"
       },
       "items": [
         {
@@ -57,7 +57,7 @@ module.exports={
         },
       ]
     },
-    "image": "assets/img/nt256.png",
+    "image": "img/blank_profile.png",
     footer: {
       links: [
 

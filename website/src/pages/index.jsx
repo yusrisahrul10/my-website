@@ -9,7 +9,7 @@ export default () => {
   return (
     <Layout>
       <img
-        src={"/assets/img/nt192.png"}
+        src={"/img/bblank_profile.png"}
         style={{
           display: "block",
           justifyContent: "center",
@@ -31,15 +31,15 @@ export default () => {
         <p style={{marginTop: "1rem", marginBottom: "0rem"}}>
           <span
             style={{
-              "fontSize": "3rem",
+              "fontSize": "1.5rem",
               "fontWeight": "lighter"
             }}
           >
-            Comming Soon
+            Selamat Datang!
           </span>
         </p>
-        <p style={{marginTop: "0rem", fontSize: "1.15rem", marginBottom: "1rem", marginLeft: "0.5rem", marginRight: "0.5rem", textAlign: "center"}}>
-          Yusri Sahrul Personal Website
+        <p style={{marginTop: "0rem", fontSize: "2rem", marginBottom: "1rem", marginLeft: "0.5rem", marginRight: "0.5rem", textAlign: "center"}}>
+          Saya Yusri Sahrul, Android Developer
         </p>
         <div style={{display: "flex", flexDirection: "row", gap: "0.5rem"}}>
           <LinkButton href="/about/">About</LinkButton>

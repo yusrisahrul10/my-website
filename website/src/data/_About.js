@@ -1,89 +1,23 @@
 import React from "react";
 
-export function AboutBody() {
-  return (
-    <>
-      <h1>Evan Tay</h1>
-      <p>
-        Hello! I am Evan, a Full Stack Software Engineer and Certified Cloud
-        Engineer based in Singapore.
-      </p>
-      <p>
-        I love building cool, fun and meaningful things with tech, whether that
-        be{" "}
-        <Link to={useBaseUrl("projects/")}>
-          websites, applications or games
-        </Link>
-        . To me, coding is the closest thing to magic we have in this world.
-      </p>
-      <p>
-        I was a{" "}
-        <a href="https://www.comp.nus.edu.sg/programmes/ug/cs/">
-          Computer Science major
-        </a>{" "}
-        at the{" "}
-        <a href="https://www.comp.nus.edu.sg/">
-          National University of Singapore
-        </a>{" "}
-        from 2017 to 2020. During my time there, I was the Deputy Head of
-        Technology at{" "}
-        <a href="https://dscnustech.github.io/">
-          Google Developer Student Club NUS
-        </a>
-        , and the President of the{" "}
-        <a href="https://www.instagram.com/nusskating/">NUS Skating Club</a>. I
-        was also a{" "}
-        <a href="https://github.com/DigiPie/CS1010-Tutorial-C09">
-          Teaching Assistant
-        </a>{" "}
-        for Programming Methodology and Networking courses.
-      </p>
-      <p>
-        Shortly after graduating, I started working as a Full Stack Engineer at{" "}
-        <a href="https://padlet.com">Padlet</a>.
-      </p>
-      <div>
-        <Link
-          className="button button--outline button--primary"
-          to={useBaseUrl("#experience")}
-        >
-          My experience
-        </Link>{" "}
-        <Link
-          className="button button--outline button--primary"
-          to={useBaseUrl("#education")}
-        >
-          My education
-        </Link>{" "}
-      </div>
-    </>
-  );
-}
-
 export const WorkItems = [
   {
-    location: "Padlet",
-    link: "https://www.padlet.com",
-    position: "Software Engineer",
-    period: "January 2021 to Present",
+    location: "Datadigi Indonesia",
+    link: "https://datadigi.id",
+    position: "Android Developer",
+    period: "Agustus 2020 s/d Sekarang",
     description: (
       <>
-        Padlet is a real-time collaborative platform on which{" "}
-        <a href="https://www.alexa.com/siteinfo/padlet.com">
-          millions of people across the globe
-        </a>{" "}
-        share content using digital bulletin boards called padlets. I work on
-        the platform as a Full Stack and Support Engineer.
+        Datadigi merupakan pengembang aplikasi terkemuka dan berpengalaman 
+        dalam mengelola proyek implementasi sistem Retail 
+        dan F&B skala nasional, baik untuk klien UMKM maupun 
+        yang memiliki ratusan cabang dan toko.
         <br />
         <br />
-        As a Full Stack Engineer, I deliver end-to-end solutions by working on
-        all levels of the stack, from the infrastructure to the backend (Ruby on
-        Rails) to the frontend (VueJS).
-        <br />
-        <br />
-        As a Support Engineer, I triage, route and fix issues escalated from the
-        support team. I also spec and build internal tools for administering
-        Padlet.
+        Sebagai seorang Android Developer, saya terlibat dalam beberapa projek internal 
+        dari Datadigi berupa aplikasi Point of Sale
+        (POS). Dimulai dari pengembangan dari <i>scratch</i>, pemeliharaan (<i>maintenance</i>)
+        aplikasi <i>legacy</i>, sampai penambahan fitur-fitur baru.
       </>
     ),
   },

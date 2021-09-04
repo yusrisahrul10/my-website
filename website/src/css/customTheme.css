@@ -6,8 +6,20 @@
   --ifm-color-primary-dark: #B56528;
   --ifm-color-primary-darker: #AB5F25;
   --ifm-color-primary-darkest: #8D4E1F;
+  --ifm-color-warning: #10ad61;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+.underlineColorWarning {
+  border-bottom: 4px solid var(--ifm-color-warning);
+}
+
+.underlineColorSuccess {
+  border-bottom: 4px solid var(--ifm-color-primary);
+}
 
 .header-github-link:hover {
   opacity: 0.6;
