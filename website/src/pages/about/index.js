@@ -64,7 +64,7 @@ function About() {
                   dan <i>workshop</i> yang diadakan, serta melatih kemampuan <i>hard skill</i> maupun <i>softskill</i>.
                 </p>
                 <p>
-                  Sebelum lulus, saya mempunyai pengalaman bekerja di {" "}
+                  Sebelum lulus, saya memulai perjalanan karir profesional saya bekerja di {" "}
                   <a href="https://datadigi.id/">Datadigi Indonesia</a> Sebagai Android Developer selama 1 tahun.
                 </p>
               </div>

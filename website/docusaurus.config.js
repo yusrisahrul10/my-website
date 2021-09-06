@@ -5,14 +5,6 @@ module.exports={
   "baseUrl": "/",
   "organizationName": "yusrisahrul10",
   "projectName": "my-website",
-  // "scripts": [
-  //   {
-  //     src: "https://tr.n4o.xyz/js/plausible.js",
-  //     async: true,
-  //     defer: true,
-  //     "data-domain": "naoti.me"
-  //   }
-  // ],
   "favicon": "img/violet.png",
   "onBrokenLinks": "log",
   "onBrokenMarkdownLinks": "log",
@@ -41,17 +33,22 @@ module.exports={
     },
     "navbar": {
       "title": "Yusri Sahrul",
-      "logo": {
-        "src": "img/blank_profile.png"
-      },
+      // "logo": {
+      //   "src": "img/profile.jpg"
+      // },
       "items": [
         {
-          "to": "blog/",
-          "label": "Blog",
+          "to": "about/",
+          "label": "About",
           "position": "left",
         },
         {
-          href: "https://github.com/yusrisahrul10/personal-website",
+          "to": "projects/",
+          "label": "Projects",
+          "position": "right",
+        },
+        {
+          href: "https://github.com/yusrisahrul10/",
           position: "right",
           className: "header-github-link",
         },

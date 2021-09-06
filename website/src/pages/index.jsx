@@ -31,19 +31,19 @@ export default () => {
         <p style={{marginTop: "1rem", marginBottom: "0rem"}}>
           <span
             style={{
-              "fontSize": "1.5rem",
+              "fontSize": "2rem",
               "fontWeight": "lighter"
             }}
           >
-            Selamat Datang!
+            Muhammad Yusri Sahrul Hikmah
           </span>
         </p>
-        <p style={{marginTop: "0rem", fontSize: "2rem", marginBottom: "1rem", marginLeft: "0.5rem", marginRight: "0.5rem", textAlign: "center"}}>
-          Saya Yusri Sahrul, Android Developer
+        <p style={{marginTop: "0rem", fontSize: "1.5rem", marginBottom: "1rem", marginLeft: "0.5rem", marginRight: "0.5rem", textAlign: "center"}}>
+          Android Developer
         </p>
         <div style={{display: "flex", flexDirection: "row", gap: "0.5rem"}}>
           <LinkButton href="/about/">About</LinkButton>
-          <LinkButton href="/project/">Project</LinkButton>
+          <LinkButton href="/projects/">Project</LinkButton>
           <LinkButton href="/blog/">Blog</LinkButton>
         </div>
       </div>
