@@ -43,8 +43,8 @@ export default () => {
         </p>
         <div style={{display: "flex", flexDirection: "row", gap: "0.5rem"}}>
           <LinkButton href="/about/">About</LinkButton>
-          <LinkButton href="/projects/">Project</LinkButton>
-          <LinkButton href="/blog/">Blog</LinkButton>
+          <LinkButton href="/projects/">Projects</LinkButton>
+          <LinkButton href="https://www.linkedin.com/in/yusri-sahrul/">Linkedin</LinkButton>
         </div>
       </div>
       <br />

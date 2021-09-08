@@ -319,6 +319,98 @@ const projects = [
       },
     ],
   },
+  {
+    category: "Android",
+    title: "Taking Order App",
+    slug: "#takingorder",
+    imageUrl: "img/projects/takingorder.png",
+    subtitle: "Aplikasi untuk pemesanan/booking untuk restoran",
+    period: "Desember 2020",
+    tech: "Flutter, BLOC",
+    description: (
+      <>
+        <p>
+          Merupakan aplikasi pemesanan berdasarkan nomor meja dibuat untuk klien {" "}
+          <a href="https://datadigi.id">Datadigi</a> yang mempunyai beberapa fitur seperti, pilih makanan,
+          checkout keranjang, dan konfirmasi pesanan.
+        </p>
+        <p>
+          Di sini, saya pertama kalinya menggunakan Flutter untuk men-develop aplikasi ini, dan juga
+          BLOC sebagai <i>design pattern</i> yang digunakan.
+        </p>
+      </>
+    ),
+  },
+  {
+    category: "Android",
+    title: "Android Point of Sale (APOS)",
+    slug: "#apos",
+    imageUrl: "img/projects/apos.jpg",
+    subtitle: "Aplikasi Point of Sale (POS) untuk klien dari Datadigi",
+    period: "Februari 2021",
+    tech: "Kotlin, Retrofit, Room, Bluetooth Printer",
+    description: (
+      <>
+        <p>
+          Merupakan aplikasi Point of Sale (POS) berbasis Android, dengan fitur-fitur di dalamnya
+          terdiri dari login, pilih meja, pilih menu, simpan ke antrian, dan pembayaran.
+        </p>
+        <p>
+          Tantangan dalam pengembangan aplikasi ini adalah pencetakan struk saat transaksi selesai,
+          di mana saya menerapkan penggunaan <i>inner</i> Bluetooth Printer di <i>device</i> POS
+          tersebut. Selain itu, saya pun harus membat tampilan yang responsive baik dijalankan di
+          <i>device</i> portrait maupun tablet.
+        </p>
+        <b>Tech Stack</b>
+        <ul>
+          <li>
+            Kotlin
+          </li>
+          <li>
+          <a href="https://github.com/square/retrofit">
+            Retrofit
+          </a>
+          </li>
+          <li>
+            KTX (Kotlin Extension)
+          </li>
+          <li>
+            Room
+          </li>
+          <li>
+            Bluetooth Printer
+          </li>
+          <li>
+            LiveData
+          </li>
+          <li>
+            MVP, MVVM Pattern
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    category: "Website",
+    title: "Personal Website",
+    slug: "#mywebsite",
+    imageUrl: "img/projects/webprofile.png",
+    subtitle: "Personal Web Profile dari Yusri Sahrul",
+    period: "Agustus 2021",
+    tech: "Docusaurus, Node.js, React.js, Travis-CI",
+    description: (
+      <>
+        <p>
+          Website ini dibangun menggunakan  {" "}
+          <a href="https://docusaurus.io/">Docusaurus</a>, <i>frontend</i> menggunakan React.js,
+          dan Continous Integration menggunakan Travis-CI.
+        </p>
+        <p>
+          <i>Special credit</i> untuk <a href="https://evantay.com/">Evan Tay</a> yang telah menyediakan tema ini.
+        </p>
+      </>
+    ),
+  },
 ];
 
 export default projects;
