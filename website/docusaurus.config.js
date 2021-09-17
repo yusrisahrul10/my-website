@@ -39,13 +39,18 @@ module.exports={
       "items": [
         {
           "to": "about/",
-          "label": "About",
+          "label": "Tentang",
           "position": "left",
         },
         {
           "to": "projects/",
-          "label": "Projects",
+          "label": "Project",
           "position": "right",
+        },
+        {
+          href: "https://yusrisahrul.engineer/pdf/resume.pdf",
+          label: "Resume",
+          position: "right",
         },
         {
           href: "https://github.com/yusrisahrul10/",
@@ -59,7 +64,7 @@ module.exports={
       links: [
 
         {
-          title: 'Connect',
+          title: 'Kontak',
           items: [
             {
               label: 'Linkedin',
@@ -76,7 +81,7 @@ module.exports={
           ],
         },
         {
-          title: 'More',
+          title: 'Lainnya',
           items: [
             {
               label: 'Blog',

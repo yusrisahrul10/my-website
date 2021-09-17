@@ -140,8 +140,8 @@ const projects = [
     description: (
       <>
         <p>
-          Kami mengembangkan sebuah aplikasi e-commerce sederhana berbasis Android untuk toko
-           <a href="https://www.instagram.com/p/Bs-gwM1n0lO-zfMledL5EHd7FyxOt9mwOr6Fcc0/">Alif Ain</a>. Fitur-fitur
+          Kami mengembangkan sebuah aplikasi e-commerce sederhana berbasis Android untuk toko <a href="https://www.instagram.com/p/Bs-gwM1n
+          0lO-zfMledL5EHd7FyxOt9mwOr6Fcc0/">Alif Ain</a>. Fitur-fitur
            yang terdapat di aplikasi ini yaitu login, register, pilih barang ke keranjang, dan checkout. 
            Untuk pembayaran belum menggunakan <i>payment gateway</i> sehingga
            masih dikonfirmasi secara manual.
@@ -232,7 +232,7 @@ const projects = [
     links: [
       {
         name: "GitHub",
-        link: "#",
+        link: "https://github.com/yusrisahrul10/football-apps",
       },
     ],
   },
@@ -256,7 +256,7 @@ const projects = [
     links: [
       {
         name: "GitHub",
-        link: "#",
+        link: "https://github.com/yusrisahrul10/upload-image-app",
       },
     ],
   },
@@ -410,6 +410,12 @@ const projects = [
         </p>
       </>
     ),
+    links: [
+      {
+        name: "GitHub",
+        link: "https://github.com/yusrisahrul10/my-website",
+      },
+    ],
   },
 ];
 

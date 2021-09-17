@@ -27,7 +27,7 @@ function About() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
-    <Layout title="About" description={siteConfig.tagline}>
+    <Layout title="Tentang" description={siteConfig.tagline}>
         <header className={styles.aboutHeader}>
         <h2 className="underlineColorSuccess">Tentang Saya</h2>
       </header>
@@ -41,7 +41,7 @@ function About() {
               <div className="col col--9">
                 <h2>Halo,</h2>
                 <p>
-                  Perkenalkan nama saya Yusri Sahrul, saya adalah <i>fresh graduate</i> dan
+                  Perkenalkan nama saya Muhammad Yusri Sahrul Hikmah, saya adalah <i>fresh graduate</i> dan
                   seorang <i>software engineer</i> yang memiliki pengalaman di Android Development
                   sejak tahun 2018.
                 </p>

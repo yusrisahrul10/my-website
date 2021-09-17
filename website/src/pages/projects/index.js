@@ -73,7 +73,7 @@ function Projects() {
   });
 
   return (
-    <Layout title="About" description={siteConfig.tagline}>
+    <Layout title="Project" description={siteConfig.tagline}>
         <header className={styles.aboutHeader}>
         <h2 className="underlineColorSuccess">Project Saya</h2>
       </header>

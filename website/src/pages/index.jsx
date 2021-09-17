@@ -35,15 +35,15 @@ export default () => {
               "fontWeight": "lighter"
             }}
           >
-            Muhammad Yusri Sahrul Hikmah
+            Yusri Sahrul
           </span>
         </p>
         <p style={{marginTop: "0rem", fontSize: "1.5rem", marginBottom: "1rem", marginLeft: "0.5rem", marginRight: "0.5rem", textAlign: "center"}}>
           Android Developer
         </p>
         <div style={{display: "flex", flexDirection: "row", gap: "0.5rem"}}>
-          <LinkButton href="/about/">About</LinkButton>
-          <LinkButton href="/projects/">Projects</LinkButton>
+          <LinkButton href="/about/">Tentang</LinkButton>
+          <LinkButton href="/projects/">Project</LinkButton>
           <LinkButton href="https://www.linkedin.com/in/yusri-sahrul/">Linkedin</LinkButton>
         </div>
       </div>
